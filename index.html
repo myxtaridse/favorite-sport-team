@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Team stats</title>
+</head>
+<body>
+<div class="main">
+    <h1 class="title-main">Team stats</h1>
+    <div class="team-characteristics">
+        <div class="team-text characteristic">
+            Team: <span id="team"></span>
+        </div>
+        <div class="sport-text characteristic">
+            Sport: <span id="sport"></span>
+        </div>
+        <div class="year-text characteristic">
+            Year: <span id="year"></span>
+        </div>
+        <div class="head-text characteristic">
+            Head coach: <span id="head-coach"></span>
+        </div>
+    </div>
+    <div class="select-filter">
+        <label for="players">Filter Teammates:</label>
+        <select id="players" name="players">
+            <option value="all" selected>All Players</option>
+            <option value="nick">Nicknames</option>
+            <option vlaue="forward">Position Forward</option>
+            <option value="midfielder">Position Midfielder</option>
+            <option value="defender">Position Defender</option>
+            <option value="goalkeeper">Position Goalkeeper</option>
+        </select>
+    </div>
+    <div class="grid-container" id="grid-container">
+        
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
